@@ -23,7 +23,7 @@ const firebaseConfig = {
   projectId: "test-pizza-qeyr",
   storageBucket: "test-pizza-qeyr.firebasestorage.app",
   messagingSenderId: "1024973991639",
-  appId: "1:1024973991639:web:bd223f64d879a2e165ca92"
+  appId: "1:1024973991639:web:066f4e2dcf7a185f65ca92"
 };
 
 // Firebase 및 Firestore 초기화
