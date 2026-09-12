@@ -183,6 +183,9 @@ function makeMemo(memo) {
 const input = document.getElementById("input");
 
 input.addEventListener("keydown", function (e) {
+  // 한글 조합 중(IME)에는 무시합니다. 조합이 끝난 뒤 엔터를 처리합니다.
+  if (e.isComposing) return;
+
   if (e.key === "Enter" && !e.shiftKey) {
     e.preventDefault();
 
